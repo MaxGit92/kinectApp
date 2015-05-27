@@ -53,14 +53,14 @@ La classe principale est listeModeles() située dans le fichier classSkeleton.py
 
 #### Importer les fichiers
 Il suffit d'écrire les lignes de code suivantes :
-```
+```python
 from classSkeleton import *
 from generationFunc import *
 from anim import *
 ```
 #### Apprentissage et reconnaissance
 Il faut d'abord commencer par initialiser certaines variables de la méthode d'apprentissage. "nameModels" est un tableau contenant les noms des clusters que l'on souhaite apprendre. Comme expliqué dans la partie "Aspect machine learning", il faut que ces noms correspondent au nom des fichiers de l'emplacement spécifié. Enfin, le paramètre "t" de la fonction définit le traitement des données. Il peut prendre trois valeurs : "absolu" (on ne change pas les coordonnées), "relatif" (les coordonnées sont transformées en vecteurs vitesse) et "barycentre" (les coordonnées sont centrées sur le squelette). exemple :
-```
+```python
 '''definition des variables d'apprentissage'''
 pathMouvements = "C:/Users/mouvements"
 nbEtats = 10 #nombre d'etats du hmm
@@ -84,7 +84,7 @@ print "score reletif : " + str(scoreRel) + ", score centre : " + str(scoreCen)
 ```
 #### Génération
 De manière équivalente on définit les paramètres des méthodes de génération. A noter que la génération relative nécessite une première image que l'on peut récupérer via la moyenne d'un état du modèle centré. La méthode "main(path)" sert à afficher un mouvement. Exemple :
-```
+```python
 '''generation de mouvements'''
 pathMouvementsGeneres = "C:/Users/mouvementsGeneres"
 '''parametres pour generer le mouvement relatif'''
