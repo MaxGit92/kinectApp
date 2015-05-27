@@ -1,0 +1,2 @@
+C:\Users\Manence\Desktop\pldac\SkeletonCapture\obj\Debug\SkeletonBasics-WPF.exe
+C:\Users\Manence\Desktop\pldac\SkeletonCapture\obj\Debug\SkeletonBasics-WPF.pdb
