@@ -39,7 +39,7 @@ Une fois que tous les logiciels précédents sont installés, nous pouvons débu
 
 Une fois le programme exécuté, il va afficher une fenêtre noire qui représente ce que voit la Kinect. Si la Kinect est bien installée, vous pouvez vous placer face à elle jusqu'à ce qu'elle vous détecte et effectuer le mouvement que vous souhaitez. Pour terminer l'exécution il suffit de fermer la fenêtre. A la fin de l'exécution, le programme enregistre le fichier à l'endroit que vous lui avez indiqué.
 
-![alt tag](skeletonKinect.png = 253*231)
+![alt tag](skeletonKinect.png = 353*331)
 
 #### Aspect machine learning
 Pour que les données capturées servent dans l’apprentissage et la génération de mouvement il est recommandé de créer deux dossiers. Un dossier où seront stockées les données d’apprentissages, celles que vous voulez faire apprendre au programme, et un deuxième où seront stockées les données de tests, celle que vous voulez analyser lors de la reconnaissance de mouvement.
