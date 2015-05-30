@@ -258,8 +258,11 @@ def register_move(newMouv, nomFic, path):
     newMouv = le mouvement à enregistrer
     nomFic = le nom du fichier enregistré
     path = l'endroit où on enregistre nomFic
-    '''    
+    '''  
+    if(nomFic[-4:] != ".txt"):
+        nomFic+=".txt"
     monFichier = open(path+"/"+nomFic, "w")
+    
     for i in range(len(newMouv)):
         monFichier.writelines(str(i)+"\n")
         for j in xrange(0, len(newMouv[i]), 3):
