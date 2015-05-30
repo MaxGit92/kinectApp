@@ -34,13 +34,12 @@ Une fois que tous les logiciels précédents sont installés, nous pouvons débu
 - Sélectionnez le fichier "SkeletonBasics-WPF" et ouvrez le.
 - Affichez le fichier "MainWindow.xaml.cs" s'il ne s'afficher pas automatiquement.
 - Modifiez les deux paramètres "nameFile" et "path" (situés en début de fichier). Le programme enregistrera le mouvement sous le nom de "nameFile.txt" (ne pas rajouter l'extention .txt) à l'endroit du path.
-
 ![alt tag](tuto2.png)
 - Il ne reste plus qu'à exécuter le code (appuyez sur la touche f5).
 
 Une fois le programme exécuté, il va afficher une fenêtre noire qui représente ce que voit la Kinect. Si la Kinect est bien installée, vous pouvez vous placer face à elle jusqu'à ce qu'elle vous détecte et effectuer le mouvement que vous souhaitez. Pour terminer l'exécution il suffit de fermer la fenêtre. A la fin de l'exécution, le programme enregistre le fichier à l'endroit que vous lui avez indiqué.
 
-->![alt tag](skeletonKinect.png)<-
+![alt tag](skeletonKinect.png)
 
 #### Aspect machine learning
 Pour que les données capturées servent dans l’apprentissage et la génération de mouvement il est recommandé de créer deux dossiers. Un dossier où seront stockées les données d’apprentissages, celles que vous voulez faire apprendre au programme, et un deuxième où seront stockées les données de tests, celle que vous voulez analyser lors de la reconnaissance de mouvement.
@@ -113,7 +112,7 @@ main(pathMouvementsGeneres+"/"+nameMoveCen)
 
 #### Côté utilisateur
 L'application est lancée à partir du fichier "application.pyc". Ce programme va ouvrir une interface graphique (cf figure \ref{appli}) qui est la seule fenêtre de l'application.
-->![alt tag](Appli.png)<-
+![alt tag](Appli.png)
 
 ##### Apprentissage et reconnaissance
 Pour l'apprentissage, les options suivantes sont à déterminer :
